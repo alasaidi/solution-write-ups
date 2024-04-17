@@ -168,7 +168,7 @@ for (const solution of [
   // olderMySolution,
   bitwiseOr,
 ]) {
-  describe(solution.name + ': quarter of the year', () => {
+  describe(`${solution.name}: quarter of the year`, () => {
     describe('the numbers 1 to 12', () => {
       it('1 -> 1', () => expect(solution(1)).toEqual(1));
       it('2 -> 1', () => expect(solution(2)).toEqual(1));
